@@ -5,22 +5,22 @@
 	endOfSegment = false,
 	thePathContent = {
 		"corporate": {
-			title: 'One of the world&rsquo;s leading tax authorities has been alerted to a potential case of corporate tax evasion &mdash; the company under investigation is <em>&lsquo;Sustainable Homes&rsquo;</em>.',
+			title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. ',
 			overview: [
-				'It is suspected that <em>Sustainable Homes</em> has been making charitable donations to obtain corporate tax relief. ',
-				'The money is allegedly moving through a number of third parties before ultimately making its way back into one of the Sustainable Homes&rsquo; R&amp;D projects, generating unwarranted tax credit.',
-				'Our analyst has just collected financial transactions from multiple disparate sources and now needs to analyze the data to identify if there is any truth to these allegations. He needs your help.'
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue.',
+				'Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.',
+				'Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere.'
 			],
 			videoFile: 'lib/video/FinancialCrimesScenario.mp4',
 			callback: ""
 		},
 		"terrorist": {
-			title: 'A coordinated terrorist attack involving multiple individuals has taken place. Our intelligence analyst has been urgently tasked with identifying potential key participants through cellular call data collected from the area and time of attack.',
+			title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque',
 			overview: [
-				'Our analyst has been made aware of two individuals&rsquo; phone numbers: one individual who is suspected of being involved and one individual who was apprehended during the attack.',
-				'Our analyst&rsquo;s task is to identify other potential individuals involved in the attack and establish a possible &ldquo;chain-of-command&rdquo; to help identify those whom may have planned or ordered the attacks.',
-				'After going through the process of approvals to get the necessary cellular call data, our analyst has imported the data into i2 Analyst&rsquo;s Notebook and filtered out the &ldquo;background noise&rdquo; in the data to highlight a smaller calls-of-interest list.',
-				'Our analyst begins making sense of the data by searching for the two phones identified by previous intelligence tasks.'
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id',
+				'neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere.',
+				' tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla.',
+				'Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.'
 			],
 			videoFile: 'lib/video/IntelligenceScenario.mp4',
 			callback: ""
@@ -28,100 +28,104 @@
 	},
 	theSidebarContent = {
 		'corporate' :  {
-			'feature1': '<p>The financial analyst has been drawn to the unconnected transactions in the top right hand corner of the chart. As the request was for all related activity, it seems strange that there is this unconnected set of transaction information. This is where we start questioning the data.</p>',
-			'feature2': '<p>One of the underlying analytics that infotips can access is analysis attributes, these are pre-calculated values based on the structure of the chart.</p><p>The infotips for the financial transaction links in this chart show three Entity Sum Links analysis attributes.</p><p>i. Entity Sum Links to &ndash; money coming in (credits)</p><p>ii. Entity Sum Links from &ndash; money going out (debits)</p><p>iii. Entity Sum Links flow &ndash; net difference between credits and debits</p><p>Two of these accounts have a zero Entity Sum Link flow, which is interesting as no other accounts demonstrate this behavior. Our analyst suspects that they may have been set up as &ldquo;burner&rdquo; accounts.</p>',
-			'feature3' : '<p>After finding a few matching entities and merging them, the analyst is now trying to uncover financial networks that are connected to Sustainable Homes and the suspected burner accounts.</p>',
-			'feature4' : '<p>To pinpoint potential interconnectivity between the company under investigation, our analyst is locating the suspected burner accounts through i2 Analyst&rsquo;s Notebook&rsquo;s Search feature.</p>',
-			'feature6' : '<p>Clicking on &ldquo;Find Connecting Network&rdquo; uncovers possible networks that connect Sustainable Homes charitable donations account, the suspected burner accounts, and the research and development project account. These networks also establish financial transactions that might have been made between these entities.</p>',
-			'feature7' : '<p>After discovering the potential networks of financial transactions between the accounts of interest our analyst wants to view just these transactions in a new timeline chart to view the same data from a different perspective.</p>',
-			'feature8' : '<p>Next our analyst will review a timeline of all possible connections between the target accounts.</p><p>After that, the analyst will use <em>Find Path</em> to identify the exact flow of financial transactions relating to the allegation that connects the source (Sustainable Homes) and destination (R&amp;D Project) banking accounts.</p>',
-			'final' : '<p>Thanks to your mastery of the smart analytics in i2 Analyst&rsquo;s Notebook, our analyst was able to quickly &lsquo;follow the money&rsquo; in just a few clicks and clearly present his findings despite those involved in this suspected fraud case adding addition &lsquo;noise&rsquo; into the system.</p><a href="#" class="sidebar-continue-button">Continue</a>',
+			'feature1': '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature2': '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature3' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature4' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature5' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature6' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature7' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature8' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			
+			'final' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p><a href="#" class="sidebar-continue-button">Continue</a>',
 			// start before feature messages
-			'feature10' : '<p>To pinpoint potential interconnectivity between the company under investigation, our analyst is locating accounts owned by Sustainable Homes through the i2 Analyst&rsquo;s Notebook&rsquo;s Search feature.</p><a href="#" class="sidebar-next-button">Continue</a>',
-			'feature11' : '<p>i2 Analyst&rsquo;s Notebook features smart analytics that help analysts overcome the challenges typically associated with aligning and organizing data that comes from disparate systems, such as different data modeling techniques and data entry mistakes.</p><p>For example, &ldquo;Find Matching Entities&rdquo; intelligently scores potential matches that help analysts identify duplication.</p><a href="#" class="sidebar-next-button">Continue</a>',
-			'feature12' : '<p>After finding a few matching entities and merging them, the analyst is now trying to uncover financial networks that are connected to Sustainable Homes and the suspected burner accounts.</p><a href="#" class="sidebar-next-button">Continue</a>',
-			'feature13' : '<p>Not resolving potential duplication can lead to a broken series of events or networks. In this next step the analyst will &ldquo;Find&rdquo; and &ldquo;Merge&rdquo; matching entities.</p>',
+			'feature10' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p><a href="#" class="sidebar-next-button">Continue</a>',
+			'feature11' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p><a href="#" class="sidebar-next-button">Continue</a>',
+			'feature12' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p><a href="#" class="sidebar-next-button">Continue</a>',
+			'feature13' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
 		},
 		'terrorist': {
-			'feature1': '<p>To identify the other potential participants and chain of command in this terrorist attack, the analyst starts his analysis by focusing on the two known phone numbers.</p>',
-			'feature2': '<p>In this case, the analyst will highlight the associated phones of the previously identified suspects by making them larger and putting them in red text.</p><p>Once this modification is made, you will notice how the associated phones will stand out on the chart, making them easy to track as further analysis is performed.</p>',
-			'feature3': '<p>Pay attention here, because as the two previously identified suspects&rsquo; phones are highlighted in red, it becomes clear they are not directly linked to each other. After this, the analyst will need to dig deeper to determine if they are indirectly connected to each other.</p>',
-			'feature4': '<p>The Analyze ribbon features a capability called &ldquo;Find Connecting Network&rdquo; that will help our analyst uncover intermediary connections between target entities via telephone communications.</p><p>In this instance, the analyst will detect six other individuals that form a path of communication. Discovering these pathways by analyzing communication connections will help identify others that also may have been involved in the attack.</p>',
-			'feature5': '<p>After the connecting networks are highlighted, our analyst will then be able to easily narrow the scope of the data by selecting the entities that are directly connected to the 6 interconnected individuals, alongside the original two suspects to highlight a targeted network.</p><p>After selecting this data, the analyst will then copy it to a new chart.</p>',
-			'feature6': '<p>Using the &ldquo;betweenness&rdquo; algorithm, the Social Network Analysis process will highlight three entities&ndash;over and above the two suspects previously identified&ndash;that are in a strong position in the network to control the communication flow. Apprehending these individuals could have the greatest impact in breaking up this network&rsquo;s future activities.</p>',
-			'feature7': '<p>The <em>Filters and Histograms</em> capability allows analysts to view the distribution of items based on item properties.  Our analyst is using the Filters and Histograms capability to understand the temporal spread of key phone calls. This process helps identify calls that were made prior to the attack that may have given approval to initiate the terrorist operation, and calls during the attack between individuals involved in coordinating the operation.</p>',
-			'feature8': '<p>The timeline will help identify: </p><p>i. the two phones that were involved earlier in the timeline as the individuals that planned and initiated the attack (this will be highlighted in red in the final briefing chart)</p><p>ii. The phone of the suspected &lsquo;on-the ground commander&rsquo; who primed the attack teams (this will be highlighted in green)</p><p>iii. The other two phones that became involved later as those individuals who made up part of the attack teams (this will be highlighted in blue)</p>',
-			'final' : '<p>Starting with just two suspects&rsquo; known phone numbers, i2 Analyst&rsquo;s Notebook helped our analyst identify critical insights about both the chain of command timeline and how these terrorist attacks were carried out.</p><a href="#" class="sidebar-continue-button">Continue</a>',
-			'feature9' : '<p>The new capabilities under the &ldquo;Style&rdquo; ribbon help analysts highlight specific entities on a chart by enabling them to change the visual appearance of the icons or text.</p><a href="#" class="sidebar-next-button">Continue</a>',
-			'feature10' : '<p>Social Network Analysis is helpful for identifying entities that may act as &ldquo;brokers&rdquo; or &ldquo;gatekeepers&rdquo; to enable the flow of information between different parts of an organization. Our analyst is utilizing the Social Network Analysis capability to surface insights about those who may be controlling the flow of communication across the group, and highlight individuals who were potentially directing the activities of the group during the attack.</p><a href="#" class="sidebar-next-button">Continue</a>',
-			'feature11' : '<p>Next, our analyst has imported all of the individual calls made between the 5 phones previously identified and is going to use the <em>Filters and Histograms</em> capability to understand the temporal spread of key phone calls.</p><p>This process helps identify calls that were made prior to the attack that may have given approval to initiate the terrorist operation, and calls during the attack between individuals involved in coordinating the operation.</p><a href="#" class="sidebar-next-button">Continue</a>',
-			'feature12' : '<p>Now our analyst wants to understand any likely &ldquo;chain-of-command&rdquo; to identify individuals that may have planned, ordered, and coordinated the attack.</p><p>Our analyst utilizes the Copy to New Timeline feature to create a timeline chart that shows the temporal sequence of calls.</p><a href="#" class="sidebar-next-button">Continue</a>'
+			'feature1': '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature2': '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature3' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature4' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature5' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature6' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature7' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			'feature8' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
+			
+			'final' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p><a href="#" class="sidebar-continue-button">Continue</a>',
+			// start before feature messages
+			'feature10' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p><a href="#" class="sidebar-next-button">Continue</a>',
+			'feature11' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p><a href="#" class="sidebar-next-button">Continue</a>',
+			'feature12' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p><a href="#" class="sidebar-next-button">Continue</a>',
+			'feature13' : '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia ullamcorper. Cras faucibus tortor ac venenatis tempor. Nullam bibendum auctor sapien in posuere. Sed pharetra consequat nunc vel fringilla. Nullam malesuada lorem non augue hendrerit dignissim. Fusce vel turpis ac augue fermentum aliquet.</p>',
 		}
 	},
 	theTooltipContent = {
 		'corporate1' : {
-			'headline' : 'Select the &ldquo;View&rdquo; ribbon',
-			'subcopy' : 'so the analyst can begin uncovering contextual insights about the data.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'corporate2' : {
-			'headline' : 'Check &ldquo;Infotips&rdquo;',
-			'subcopy' : 'to access underlying information that&rsquo;s key to assisting the analyst&rsquo;s thought process and next steps.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'corporate3' : {
-			'headline' : 'Select the &ldquo;Analyze&rdquo; ribbon.',
-			'subcopy' : 'This ribbon provides analysts with a variety of ways to visualize data and find connections.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'corporate4' : {
-			'headline' : 'Click &ldquo;Find Matching Entity&rdquo;',
-			'subcopy' : 'to enable algorithms and establish connections between potentially matching items that have been imported from disparate data sources.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'corporate5' : {
-			'headline' : 'Click &ldquo;Search&rdquo;',
-			'subcopy' : 'to easily discover items of interest in the chart data.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'corporate6' : {
-			'headline' : 'Click &ldquo;Find Connecting Network&rdquo;',
-			'subcopy' : 'to discover how several entities of interest are connected through their relationships.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'corporate7' : {
-			'headline' : 'Click &ldquo;Copy to New Chart.&rdquo;',
-			'subcopy' : ''
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'corporate8' : {
-			'headline' : 'Click &ldquo;Copy to New Timeline Chart&rdquo;',
-			'subcopy' : 'to translate the network into a timeline chart with pre-set analytics.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'terrorist1' : {
-			'headline' : 'Click &ldquo;Style&rdquo;',
-			'subcopy' : 'to begin formatting the data&rsquo;s visual appearance.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'terrorist2' : {
-			'headline' : 'Click &ldquo;Increase Size&rdquo;',
-			'subcopy' : 'to make the selected entities larger.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'terrorist3' : {
-			'headline' : 'Select the &ldquo;Analyze&rdquo; ribbon',
-			'subcopy' : 'to help the analyst dig deeper.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'terrorist4' : {
-			'headline' : 'Click &ldquo;Find Connecting Network&rdquo;',
-			'subcopy' : 'to analyze the data our analyst has selected and identify a network where the entities interconnect.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'terrorist5' : {
-			'headline' : 'Click &ldquo;Social Network Analysis&rdquo;',
-			'subcopy' : 'to identify potential key entities.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'terrorist6' : {
-			'headline' : 'Click &ldquo;Filters and Histograms&rdquo;',
-			'subcopy' : 'to visualize different ways the data can be distributed.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'terrorist7' : {
-			'headline' : 'Click &ldquo;Copy to New Chart.&rdquo;',
-			'subcopy' : ''
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		},
 		'terrorist8' : {
-			'headline' : 'Click &ldquo;Copy to New Timeline Chart&rdquo;',
-			'subcopy' : 'to translate the network into a timeline chart with pre-set analytics.'
+			'headline' : 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+			'subcopy' : 'elit. Cras porttitor justo a aliquet tristique. Aenean aliquam quis quam sit amet congue. Integer nec tortor id neque lacinia'
 		}
 	},
 	theVideoContent = {
